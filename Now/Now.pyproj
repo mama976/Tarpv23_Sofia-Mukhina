@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a0af54dc-a3db-4121-8a94-f43084ccfc91</ProjectGuid>
+    <ProjectGuid>d2531648-d0c0-4f0c-801c-8aaababf5d19</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProjectSofiaMukhina.py</StartupFile>
+    <StartupFile>Now.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ProjectSofiaMukhina</Name>
-    <RootNamespace>ProjectSofiaMukhina</RootNamespace>
+    <Name>Now</Name>
+    <RootNamespace>Now</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProjectSofiaMukhina.sln2" />
+    <Compile Include="Now.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
