@@ -51,3 +51,4 @@ a = int(input ('from'))
 b = (input ('before'))
 c = (sum(range(a+b))) /b
 print (c)
+
