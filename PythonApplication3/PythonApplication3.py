@@ -1,4 +1,4 @@
-print("Tere! Olen sinu uus sıber - Python")
+Ôªøprint("Tere! Olen sinu uus s√µber - Python")
 nimi= input("Mis on sinu nimi?")
 print(nimi +"oi kui ilus nimi!")
 print(nimi + "Kas leian Sinu keha indeksi? 0-ei, 1-jah =>")
@@ -14,7 +14,7 @@ if 16 <arv <=19:
 if arv <19 <=25:
     print("Normaalkaal")
 if arv <25  <=30:
-    print("‹lekaal")
+    print("√úlekaal")
 if arv <30  <=35:
     print("Rasvumine")
 if arv <35   <=40:
@@ -22,9 +22,8 @@ if arv <35   <=40:
 if arv >40:
     print("Tervisele ohtlik rasvumine")
 else:
-    print("Kahju! See on v‰ga kasulik info!")
+    print("Kahju! See on v√§ga kasulik info!")
 try:
    a=float(input("A "))
 except:
    ValueError
-
