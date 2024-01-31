@@ -4,7 +4,7 @@ from sunau import AUDIO_FILE_ENCODING_ADPCM_G721
 
 print("Tere maailm")
 nimi =input("mis on sinu nimi?")
-Vanus=int(iput("Kui vana sa oled?")) #float()->2.5
+Vanus=int(input("Kui vana sa oled?")) #float()->2.5
 print("tere Tulemast! "+nimi+".Sa oled)
 print("tere Tulemast!" ,nimi,).Sa oled",vanus,"aasta vana")
 print ("Tere tulemat {0} Sa oled {1} aastat vana".format(nimi;vanus))

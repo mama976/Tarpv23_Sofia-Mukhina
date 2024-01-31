@@ -53,4 +53,72 @@ if nimi=="Juku":
 from random import
 if "Juku"=
 protsent=randit(-100,500) #0-100 0-6-"tasuta", 6-14-"lastepilet", 15-65"täispilet", 65-100-"sooduspilet", 0-100-"viga andmetega"
-if 
+
+#8
+arve_nr date.today()#datetime.now()
+print(arve_nr)
+tsekk="Arve: "str(arve_nr)+"\nToode Hind Kogus Summa\n"
+summa=0
+
+toode="Piim"
+hind=randint(50,100)/100
+v=inpyt("Toode: "+toode+" Hind: "+str(hind)+"\nKas tahad osta?").lower()
+if v=="jah":
+    mitu=int(input("Mity? "))
+    tsekk+=toode+" "+str(hind)+" "+str(mitu*hind)+"\n"
+    summa+=mitu*hind
+toode="Leib"
+hind=randint(90,300)/100
+v=inpyt("Toode: "+toode+" Hind: "+str(hind)+"\nKas tahad osta?").lower()
+if v=="jah":
+    mitu=(int("Mity? "))
+    tsekk+=toode+" "+str(hind)+" "+str(mitu)+" "str(mitu+hind)+"\n"
+     summa+=mitu*hind
+toode="Kommid"
+hind=randint(600,1500)/100
+
+
+
+
+
+
+#8-2
+arve_nr date.today()#datetime.now()
+print(arve_nr)
+tsekk="Arve: "str(arve_nr)+"\nToode Hind Kogus Summa\n"
+summa=0
+for toode in ["Piim","Leib","Komm"]:
+    hind=randint(50,100)/100
+    v=inpyt("Toode: "+toode+" Hind: "+str(hind)+"\nKas tahad osta?").lower()
+    if v=="jah":
+           mitu=(int("Mity? "))
+           tsekk+=toode+" "+str(hind)+" "+str(mitu)+" "+str(mitu*hind)+"\n"
+           summa+=mitu*hind
+tsekk="Kokku maksta: "+str(summa)
+print(tsekk)
+raha=float(input("Maksa "+str(summa))
+if raha==summa:
+    print("Tänan ostu eest!")
+elif raha>summa:
+    print("Tänan ostu eest! Tagasi "+str(raha-summa))
+else:
+    print("Maksa veel"+str(summa-raha))
+
+#11
+ta=date.today().year
+sp=date()
+sp=date(int(input("Sünniaasta: ")),int(input("sünnikuu: ")),int(input(""Sünnnipäev: "))).year
+if (ta-sp)%5==0:
+    print("Juubell")
+else:
+    print("Tavaline sünnipäev")
+
+#14
+maht=int(input("Bussi maht: "))
+i=int(input("inimeste atv: "))
+ba=round(1/maht) #2,3->2
+if 1%maht!=0:
+    ba+=1
+vb1%maht
+print("Kokku on vaja {0} bussi ja viimasel sõidavad {1} inimest".format(ba,vb))
+
