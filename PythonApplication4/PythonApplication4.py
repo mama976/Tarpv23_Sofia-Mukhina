@@ -27,3 +27,4 @@ try:
    a=float(input("A "))
 except:
    ValueError
+
